@@ -35,6 +35,6 @@ This game is released under the **MIT License** — use it, break it, ship it, r
 
 ## Preview
 
-[Play the game here](https://ttvbetboster2.github.io/rotstim-clicker)
+[Play the game here](https://ttvbetboster2.github.io/rotstim-clicker/)
 
 >  Click. Upgrade. Rot. Repeat.
