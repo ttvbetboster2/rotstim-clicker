@@ -1,0 +1,1 @@
+clickUpgradeCost = baseClickCost + clickUpgradesBought \* clickCostIncrement;

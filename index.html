@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rotstim Clicker</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <div id="game">
+      <!-- LEFT -->
+      <section id="manualStimZone">
+        <img id="phoneStim" src="assets/img/ttphone.png" />
+      </section>
+
+      <!-- CENTER -->
+      <main id="hud">
+        <h1>Rotstim Clicker</h1>
+        <p>Stimulation Points: <span id="points">0</span></p>
+        <p id="sps">SPS: 0</p>
+        <!-- Add this -->
+        <div id="floating-popups"></div>
+        <div id="goonCave"></div>
+      </main>
+
+      <!-- RIGHT -->
+      <aside id="shop">
+        <h2 style="align-self: center; margin-top: 10px">Upgrades</h2>
+
+        <!-- Pointer -->
+        <div class="shop-item" id="clickItem">
+          <img src="assets/img/pointer.png" class="shop-icon" />
+          <div class="shop-details">
+            <div class="item-title">
+              <span class="item-name">Pointer</span>
+              <span class="owned" id="clickOwned">0</span>
+            </div>
+            <div class="item-desc">
+              This item makes you scrolling more effeicent.
+            </div>
+            <div class="item-cost">
+              <img src="assets/img/stim.png" alt="Stim" class="currency-icon" />
+              <span id="clickUpgradeCost">10</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- DVD -->
+        <div class="shop-item" id="dvdItem">
+          <img src="assets/img/dvdlogo.png" class="shop-icon" />
+          <div class="shop-details">
+            <div class="item-title">
+              <span class="item-name">DVD Logo</span>
+              <span class="owned" id="dvdOwned">0</span>
+            </div>
+            <div class="item-desc">
+              Bounces to generate stimulation passively.
+            </div>
+            <div class="item-cost">
+              <img src="assets/img/stim.png" alt="Stim" class="currency-icon" />
+              <span id="dvdUpgradeCost">100</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gooner -->
+        <div class="shop-item" id="goonerItem">
+          <img src="assets/img/gooner.png" class="shop-icon" />
+          <div class="shop-details">
+            <div class="item-title">
+              <span class="item-name">Gooner</span>
+              <span class="owned" id="goonerOwned">0</span>
+            </div>
+            <div class="item-desc">Scrolls endlessly in the goon cave. Earning you cash</div>
+            <div class="item-cost">
+              <img src="assets/img/stim.png" alt="Stim" class="currency-icon" />
+              <span id="goonerUpgradeCost">250</span>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <button id="stimBtn" style="display: none">Stimulate</button>
+    <script src="script/main.js"></script>
+  </body>
+</html>
