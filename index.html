@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rotstim Clicker</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <div id="game">
+      <!-- LEFT: Manual Brain Rot Zone -->
+      <section id="manualStimZone">
+        <img id="phoneStim" src="assets/img/ttphone.png" />
+      </section>
+
+      <!-- MIDDLE: HUD -->
+      <main id="hud">
+        <h1>Rotstim Clicker</h1>
+        <p>Stimulation Points: <span id="points">0</span></p>
+        <div id="floating-popups"></div>
+      </main>
+
+      <!-- RIGHT: Shop -->
+      <aside id="shop">
+        <h2>Upgrades</h2>
+
+        <div class="upgrade-card">
+          <div class="upgrade-icon">🖱️</div>
+          <div class="upgrade-info">
+            <h3>Pointer</h3>
+            <p class="desc">Clicks the phone manually for you.</p>
+            <button id="clickUpgradeBtn">
+              +1 per click (Cost: <span id="clickUpgradeCost">10</span>)
+            </button>
+          </div>
+        </div>
+
+        <div class="upgrade-card">
+          <div class="upgrade-icon">💿</div>
+          <div class="upgrade-info">
+            <h3>DVD Logo</h3>
+            <p class="desc">Bounces to generate stimulation passively.</p>
+            <button id="dvdUpgradeBtn">
+              +1 DVD logo (Cost: <span id="dvdUpgradeCost">100</span>)
+            </button>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <!-- Hidden Stim Button -->
+    <button id="stimBtn" style="display: none">Stimulate</button>
+
+    <script src="script/main.js"></script>
+  </body>
+</html>
