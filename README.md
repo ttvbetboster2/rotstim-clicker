@@ -27,7 +27,7 @@ This project is still evolving. Coming soon:
 - Optional theme system and stats
 - Potential mobile optimization
 ## Who Made This?
-This was built from scratch as a solo learning project, powered by caffeine and the desire to rot productively.
+This was built and is managed by me Chitraksh Kataria. This was built from scratch as a solo learning project, powered by caffeine and the desire to rot productively.
 If you want to fork it, remix it, or build on top of it go wild.
 
 ## License
